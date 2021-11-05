@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary-color: #111827;
+  --secondary-color: #1d4ed8;
+}
+
+* {
+  font-family: "Monteserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background: #fff;
+  margin: 1rem auto;
+}
